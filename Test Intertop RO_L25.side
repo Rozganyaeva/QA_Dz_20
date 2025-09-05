@@ -1,0 +1,592 @@
+{
+  "id": "4ef13662-6f4f-49f6-8527-f0f89e8dac8e",
+  "version": "2.0",
+  "name": "Test Intertop RO_L25",
+  "url": "https://intertop.ua",
+  "tests": [{
+    "id": "2c0f30af-3d9d-4922-a289-61f4cffdd023",
+    "name": "Пошук_Skechers",
+    "commands": [{
+      "id": "7f4757ca-0e20-491c-a9fa-33e99d6fd3b8",
+      "comment": "",
+      "command": "open",
+      "target": "/uk-ua/?gad_source=1&gad_campaignid=811866139&gclid=EAIaIQobChMI_-r4m7y9jwMVxwuiAx2UOBEUEAAYASAAEgJx7_D_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42328a41-280c-47e5-ac17-d54b232e1686",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5deaf509-fb7a-4b7c-851c-4f1c0d95a04d",
+      "comment": "",
+      "command": "store",
+      "target": "searchWord",
+      "targets": [],
+      "value": "кросівки"
+    }, {
+      "id": "68e4ca85-329c-4678-ac62-80fc3191e355",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__73']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55db9642-7719-4d39-8a20-aca986f3da9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__73']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "кросівки"
+    }, {
+      "id": "001f9754-eaec-4f03-893b-aaec807d76b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__73']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "8a709458-aa5b-4d1b-9957-6f4a2245bf75",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__73']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "кросівки"
+    }, {
+      "id": "e7f38fa4-8ee2-4ba8-a760-cf844699e37c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchResultSuggestion:nth-child(3) .highlighted",
+      "targets": [
+        ["css=.searchResultSuggestion:nth-child(3) .highlighted", "css:finder"],
+        ["xpath=//div[@id='title-search']/div/div[2]/div[3]/div/div/div/a[3]/span/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2279698f-ebb5-4d48-926d-38bb0dc0fbb8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.productItem:nth-child(14) .productItem__image",
+      "targets": [
+        ["css=.productItem:nth-child(14) .productItem__image", "css:finder"],
+        ["xpath=//img[@alt='Кросівки для бігу Skechers Relaxed Fit: GO Walk Arch Fit N-Joy модель 125840 MVE - фото']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div[4]/div/div/div[14]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb116477-1843-4493-a4be-2d9051bb7446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.owl-item:nth-child(1) .productItem__image",
+      "targets": [
+        ["css=.owl-item:nth-child(1) .productItem__image", "css:finder"],
+        ["xpath=//img[@alt='Кросівки для бігу Skechers Relaxed Fit: GO Walk Arch Fit N-Joy модель 125840 MVE - фото']", "xpath:img"],
+        ["xpath=//div[@id='carousel_wu4x0ki5n3l']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83047047-a793-472c-acbb-13cdd018c125",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.common:nth-child(9) .menu-item__name",
+      "targets": [
+        ["css=.common:nth-child(9) .menu-item__name", "css:finder"],
+        ["xpath=//div[@id='header-search-sticky']/div/nav/div/ul/li[9]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Бренди')]", "xpath:innerText"]
+      ],
+      "value": "Бренди"
+    }]
+  }, {
+    "id": "e89b8c51-65d5-4e09-bced-f83379e64d44",
+    "name": "Вибір прикрас",
+    "commands": [{
+      "id": "d46a232f-f2c4-4b51-917b-58041a596fce",
+      "comment": "",
+      "command": "open",
+      "target": "https://intertop.ua/uk-ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a780e0d1-7ae8-4c97-814e-3255c43da259",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "700f28df-7f22-4e0b-86d2-8c49a560ac6f",
+      "comment": "",
+      "command": "store",
+      "target": "searchWord",
+      "targets": [],
+      "value": "прикраси"
+    }, {
+      "id": "874a5d78-9e59-410e-b807-b7d810ee4e6c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='header-search-sticky']/div/nav/div/ul/li[8]/div/a/span",
+      "targets": [
+        ["css=.active > .menu-item .menu-item__name", "css:finder"],
+        ["xpath=//div[@id='header-search-sticky']/div/nav/div/ul/li[8]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Прикраси')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "015f5087-0276-495c-a4fe-81588070931a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Браслети і намистини Pandora",
+      "targets": [
+        ["linkText=Браслети і намистини Pandora", "linkText"],
+        ["css=.menu-link:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Браслети і намистини Pandora')]", "xpath:link"],
+        ["xpath=//div[@id='header-search-sticky']/div/nav/div/ul/li[8]/div[2]/div/div/div[9]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/uk-ua/deals/37806/')]", "xpath:href"],
+        ["xpath=//div[9]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Браслети і намистини Pandora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8eb846-f036-4361-8a4e-074c404b7d0f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='PANDORA  &shy; Класичні модель 793746C01 - фото']",
+      "targets": [
+        ["css=.active .productItem__image", "css:finder"],
+        ["xpath=//img[@alt='PANDORA  &shy; Класичні модель 793746C01 - фото']", "xpath:img"],
+        ["xpath=//div[@id='carousel_zv7ctaafogl']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb33d45-1c16-4160-b4b8-394a9dbf98d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32 > img",
+      "targets": [
+        ["css=#\\32 > img", "css:finder"],
+        ["xpath=//img[@alt='thumbnail-2']", "xpath:img"],
+        ["xpath=//div[@id='2']/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f357d404-00dc-435a-9516-df834e026f54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordeon-element__wrapper:nth-child(1) > .accordeon-element__title",
+      "targets": [
+        ["css=.accordeon-element__wrapper:nth-child(1) > .accordeon-element__title", "css:finder"],
+        ["xpath=//div[@id='product-size']/div/div[5]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71353c0-b4a5-4d7b-a6e2-5ceea7286d55",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=basket_add_preview",
+      "targets": [
+        ["id=basket_add_preview", "id"],
+        ["css=#basket_add_preview", "css:finder"],
+        ["xpath=//span[@id='basket_add_preview']", "xpath:attributes"],
+        ["xpath=//div[@id='product-size']/div/div[2]/div[5]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[5]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": "Купити"
+    }]
+  }, {
+    "id": "33d407f8-d71e-4859-90fa-4b24864aa267",
+    "name": "Введення невалідного імені при реєстрації",
+    "commands": [{
+      "id": "49a86126-c684-44c5-ac02-ffbc775b076d",
+      "comment": "",
+      "command": "open",
+      "target": "https://intertop.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24ae178d-7d20-4bb3-96ce-903e6fa9c833",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UserBtn circle",
+      "targets": [
+        ["css=.UserBtn circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d4d2cf5-a634-440c-83af-25ec12836383",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Створити акаунт",
+      "targets": [
+        ["linkText=Створити акаунт", "linkText"],
+        ["css=.login-tab--button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Створити акаунт')]", "xpath:link"],
+        ["xpath=//div[@id='auth_block']/div[3]/div/div/div/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[23]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Створити акаунт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af6af03e-7833-4955-ad9c-eb227aa6951c",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_or_phone",
+      "targets": [
+        ["id=email_or_phone", "id"],
+        ["name=email_or_phone", "name"],
+        ["css=#email_or_phone", "css:finder"],
+        ["xpath=//input[@id='email_or_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__126']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da49082-4619-4b42-ad87-d76756f2f1e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_or_phone",
+      "targets": [
+        ["id=email_or_phone", "id"],
+        ["name=email_or_phone", "name"],
+        ["css=#email_or_phone", "css:finder"],
+        ["xpath=//input[@id='email_or_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__126']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "++++++++++++++++++++++++++++++++++"
+    }, {
+      "id": "797d04f3-11e8-449b-8bdd-b274fa2d1d98",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__129']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2acaffd7-2262-4884-94e3-bd4564081f6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__129']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "q2wsxzaq"
+    }, {
+      "id": "51cc2dbc-fbcf-4431-8b10-4e2d756325a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IButton > span",
+      "targets": [
+        ["css=.IButton > span", "css:finder"],
+        ["xpath=//form[@id='registrationForm']/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5c6a00-016b-48f2-bc58-8058989be847",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=__BVID__98__BV_feedback_invalid_",
+      "targets": [
+        ["id=__BVID__98__BV_feedback_invalid_", "id"],
+        ["css=#\\__BVID__98__BV_feedback_invalid_", "css:finder"],
+        ["xpath=//div[@id='__BVID__98__BV_feedback_invalid_']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__98']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Перевірте правильність введення"
+    }]
+  }, {
+    "id": "f6beb6a7-78b2-4ce5-b8a6-a7486374ea6d",
+    "name": "Перевірка переходу за посиланням Акції",
+    "commands": [{
+      "id": "16a55da0-09fb-4e63-9f1b-9b71a8e77022",
+      "comment": "",
+      "command": "open",
+      "target": "https://intertop.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2907141f-86ac-4a8c-81fb-71929e04aa8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1b90343-3d70-422e-bbb7-fbd637c14237",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акції",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a0fdc21-61ab-48ad-a552-4f5cd91c9c9f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.font-semibold .menu-item__name",
+      "targets": [
+        ["css=.font-semibold .menu-item__name", "css:finder"],
+        ["xpath=//div[@id='header-search-sticky']/div/nav/div/ul/li[10]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[10]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Акції')]", "xpath:innerText"]
+      ],
+      "value": "Акції"
+    }, {
+      "id": "22ea20a5-33e3-44f2-b4b1-a810da8dbb05",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "id=non_existing_element",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b985772-a314-451a-8b3d-f0021d5f036c",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "xpath=//h1",
+      "targets": [],
+      "value": "Новини"
+    }]
+  }, {
+    "id": "26a6fe2c-7257-4035-8c6f-76fdf7e9e960",
+    "name": "Перевірка футера",
+    "commands": [{
+      "id": "09cc1aef-67e4-48cb-8e15-6c0ccf8ff0dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://intertop.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fbdf6e4-c217-4dbb-bde1-459e6df8337a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,629)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a420cd13-88ab-4861-a6ed-6e27d904e86d",
+      "comment": "",
+      "command": "click",
+      "target": "name=SUB-EMAIL",
+      "targets": [
+        ["name=SUB-EMAIL", "name"],
+        ["css=.form__input > input", "css:finder"],
+        ["xpath=//input[@name='SUB-EMAIL']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe_form']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd609b5-8214-4b11-ad7d-5c7e2f647d81",
+      "comment": "",
+      "command": "type",
+      "target": "name=SUB-EMAIL",
+      "targets": [
+        ["name=SUB-EMAIL", "name"],
+        ["css=.form__input > input", "css:finder"],
+        ["xpath=//input[@name='SUB-EMAIL']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe_form']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "555555555555555555"
+    }, {
+      "id": "6abcd998-c61d-4781-99e2-614d72f2bafb",
+      "comment": "",
+      "command": "click",
+      "target": "id=subscribe_add",
+      "targets": [
+        ["id=subscribe_add", "id"],
+        ["css=#subscribe_add", "css:finder"],
+        ["xpath=//input[@id='subscribe_add']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe_form']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76329dd6-7567-4202-81b9-ae06122c2890",
+      "comment": "",
+      "command": "click",
+      "target": "name=SUB-EMAIL",
+      "targets": [
+        ["name=SUB-EMAIL", "name"],
+        ["css=.form__input > input", "css:finder"],
+        ["xpath=//input[@name='SUB-EMAIL']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe_form']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c462d071-fb0e-4f13-9ef3-e0bb83b276c8",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "id=email_or_phone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33314171-ed0e-4183-afc3-8f77f8ebafda",
+      "comment": "",
+      "command": "click",
+      "target": "id=success-placeholder",
+      "targets": [
+        ["id=success-placeholder", "id"],
+        ["css=#success-placeholder", "css:finder"],
+        ["xpath=//div[@id='success-placeholder']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe_form']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "E-mail вказано невірно"
+    }]
+  }, {
+    "id": "197eabbd-3271-4b45-ad3b-dd059e814424",
+    "name": "Перевірка пустої форми авторизації",
+    "commands": [{
+      "id": "ce7d6b1b-2e0f-4d06-92ef-ff02cebdf818",
+      "comment": "",
+      "command": "open",
+      "target": "https://intertop.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15091cb0-c122-475d-b330-127cb03736f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82784f9f-62c9-424a-9035-f72d4fbe7d3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UserBtn > svg",
+      "targets": [
+        ["css=.UserBtn > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "090c9560-c4ad-498c-8739-3154f5a4cea4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_or_phone",
+      "targets": [
+        ["id=email_or_phone", "id"],
+        ["name=email_or_phone", "name"],
+        ["css=#email_or_phone", "css:finder"],
+        ["xpath=//input[@id='email_or_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__87']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe365b85-eb8b-4932-bc27-8546482e69e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IButton",
+      "targets": [
+        ["css=.IButton", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5101ed55-09d0-484e-8e14-e8f197078ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IButton",
+      "targets": [
+        ["css=.IButton", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f293f86-4aee-464d-b92d-48eae999e87b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-footer > div:nth-child(1)",
+      "targets": [
+        ["css=.form-footer > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='auth_block']/div[3]/div/div/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "350d2627-1bbe-4c09-ba1d-689801230a77",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfb67eea-1f32-400a-8fd4-7264d6481421",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "id=not_exist_element",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "358aba1f-d50a-43c3-9523-86b7cb50ef57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c0f30af-3d9d-4922-a289-61f4cffdd023"]
+  }],
+  "urls": ["https://intertop.ua/"],
+  "plugins": []
+}
